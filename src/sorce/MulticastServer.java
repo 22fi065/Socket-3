@@ -14,6 +14,7 @@ public class MulticastServer {
             // 隣の人とやる場合
             // InetAddress nyan = InetAddress.getByName("239.0.0.1");
             int port = 49153;
+            System.out.println();
 
             // マルチキャストソケットを作成し、指定したグループとポートに参加
             MulticastSocket multicastSocket = new MulticastSocket(port);
